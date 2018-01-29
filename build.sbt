@@ -2,6 +2,7 @@ import sbt.Keys.scalacOptions
 
 lazy val buildSettings = Seq(
   organization := "pt.ulisboa.tecnico",
+  name := "saslearning",
   version := "2.0.0-SNAPSHOT",
   scalaVersion := "2.12.4"
 )
